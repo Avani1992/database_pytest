@@ -1,0 +1,3 @@
+Every class should be starting from Tests.
+Every method name should be starting from test_.
+For print statement write py.test -rP in terminal.
