@@ -1,0 +1,15 @@
+{
+   "Animal":
+   { "name": "dog",
+     "color": "red",
+     "age": 8,
+     "place": "streets"
+   },
+   "Animal1":
+   {
+     "name": "tiger",
+     "color": "yellow",
+     "age": 20,
+     "place": "Jungle"
+   }
+}

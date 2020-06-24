@@ -1,0 +1,11 @@
+{
+ 'sum':(10,20),
+ 'division':(140,6),
+ 'multi':(10,4),
+ 'substract':(10,5),
+ 'modulus':(100,5),
+ 'sort':[2,4,5,9,0,1]
+}
+
+design a class with these 4 type of methods.....
+arguments of 4 functions should be taken from JSON only...

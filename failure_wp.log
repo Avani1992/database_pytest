@@ -1,0 +1,33 @@
+root@CLDBGQAEP1064:~# chmod 777 write_protect.py
+root@CLDBGQAEP1064:~# sadmin features disable deny-write
+root@CLDBGQAEP1064:~# chmod 777 write_protect.py
+root@CLDBGQAEP1064:~# ls -lrt
+total 1452
+-rw-r--r-- 1 root root 786432 Jun  5 17:42 apache-jmeter-5.1.1.zip
+-rw-r--r-- 1 root root     18 Jul 24 18:03 123.sh
+-rw-r--r-- 1 root root     54 Jul 25 12:14 do_not_read.sh
+-rwxrwxrwx 1 root root     30 Jul 25 14:18 training.txt
+-rw-r--r-- 1 root root     30 Jul 25 14:35 do_not_add.txt~
+-rw-r--r-- 1 root root     58 Jul 25 14:37 do_not_add.txz~
+-rw-r--r-- 1 root root     13 Jul 25 14:40 do_not_read1.sh
+-rw-r--r-- 1 root root 602772 Jul 26 10:45 lst1.txt
+-rw-r--r-- 1 root root     58 Jul 26 13:40 do_not_add.txy~
+-rw-r--r-- 1 root root     99 Jul 26 13:43 do_not_add.txx~
+-rw-r--r-- 1 root root     99 Jul 26 15:21 do_not_add.txw~
+-rw-r--r-- 1 root root    103 Jul 26 15:22 do_not_add.txt
+-rw-r--r-- 1 root root     34 Jul 29 11:36 can_t_run.sh
+-rw-r--r-- 1 root root     32 Jul 29 11:40 unslodified_1.sh
+-rw-r--r-- 1 root root     18 Jul 30 10:41 123.sh~
+-rw-r--r-- 1 root root     18 Jul 30 10:44 123.sz~
+-rw-r--r-- 1 root root     12 Jul 30 10:54 monitor_me.txt
+-rwxrwxrwx 2 root root     21 Jul 30 11:13 1.py
+-rwxrwxrwx 1 root root     28 Jul 30 11:41 2.py
+-rwxrwxrwx 1 root root     26 Jul 30 11:43 1.log
+-rwxrwxrwx 2 root root     26 Jul 30 15:37 deny_read.txt
+-rwxrwxrwx 1 root root     21 Jul 30 16:28 write_protect.py
+-rw-r--r-- 1 root root     21 Jul 30 16:30 write_protect.py~
+-rw-r--r-- 1 root root     21 Jul 30 16:30 write_prot2.pyc~
+-rwxrwxrwx 1 root root     26 Jul 30 11:43 12.log
+-rwxrwxrwx 1 root root     26 Jul 30 11:43 1_.log
+
+root@CLDBGQAEP1064:~#

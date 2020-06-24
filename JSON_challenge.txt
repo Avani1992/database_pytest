@@ -1,0 +1,23 @@
+one JSON file is given to you:
+solve that challenge using oop
+{
+ {
+ 'name': 'dog',
+ 'color':'red',
+ 'age': 8,
+ 'place': 'streets'
+ }
+ {
+ 'name': 'tiger',
+ 'color':'yellow',
+ 'age': 20,
+ 'place': 'Asia atlantic'
+ }
+}
+
+create a text 1.txt file which contains..
+Essay 1:
+----------------------------------
+Animal name is dog
+Animal color is red....
+Animal.............
