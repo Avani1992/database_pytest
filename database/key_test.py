@@ -1,5 +1,8 @@
+"""create a DB in which orders and customers tables are there. Using the concept of Primary Key and Foreign Key.
+cu_id is a Primary key of table customers and foreignkey of table orders. Fetch data from customers table according to the ordername of orders table.
+ and compare the fetched data with json file in which inserted data stored.If data matched then testcase passed else failed using pytest concept.
+ Two file ctreated key_test.py, key_test2.py and customer_data.json"""
 import mysql.connector
-
 import  json
 
 class key_test:
